@@ -1,0 +1,40 @@
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.grid{
+    width: 560px;
+    height: 300px;
+    border: 2px solid black;
+   position: relative;
+}
+.block{
+    width:100px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(90, 90, 218);
+    position: absolute;
+}
+
+.user{
+    width:100px;
+    height: 20px;
+    background-color: rgb(190, 25, 227);
+    position: absolute;
+}
+
+.ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+}
+
+.hide{
+    display: none;
+}
